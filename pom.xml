@@ -11,9 +11,9 @@
     
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>uk.co.loyalty</groupId>
+    <groupId>com.sample</groupId>
     <version>0-SNAPSHOT</version>
-    <artifactId>iss-aip-sample-db</artifactId>
+    <artifactId>sample-db</artifactId>
 
     <dependencies>
         <dependency>
