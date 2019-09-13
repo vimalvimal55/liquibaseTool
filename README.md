@@ -36,7 +36,12 @@ open command line mode
 
 4. start providing command like this 
 
+
 5. D:\liquibaseTool>mvn clean liquibase:update -Dliquibase  -Dliquibase.url=jdbc:mysql://localhost:3306/bookdb?useSSL=false -Dliquibase.username=root -Dliquibase.password=password
+
+(according to above line the local db should be running at port 3306 with scheme bookdb)
+(We suggest you to use heidi sql as work bench)
+
 	
 		-- here the liquibase:update can be changed according to  you wish , please visit this page for further commands and features fo it. 
 		-- https://www.liquibase.org/documentation/maven/index.html
