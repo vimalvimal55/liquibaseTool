@@ -46,5 +46,33 @@ open command line mode
 		-- here the liquibase:update can be changed according to  you wish , please visit this page for further commands and features fo it. 
 		-- https://www.liquibase.org/documentation/maven/index.html
 
-  
+ 6. Now at this point after running a command you may get error like mvn is not able to download the stuff.
+ 7. if you are in private network it will not create an error it will download smoothly.
+ 8. if you in infosys netwrok , you need to download everything from infosys artifactory.
+ 9. insdie liquibaseTool you will find settings.xml place this in #C:\Users\<isntalledUser>\.m2 
+ 10. inside the settings.xml update username as well .  ( <<username>> )
+
+ 
+         -- <configuration>
+				<httpConfiguration>
+					<all>
+						<params>
+							<param>
+								<name>http.authentication.preemptive</name>
+								<value>%b,true</value>
+							</param>
+						</params>
+					</all>
+				</httpConfiguration>
+				<httpHeaders>
+					<property>
+						<name>username</name>
+						<!--update it below -->
+						<value><<username>></value>
+					</property>
+				</httpHeaders>
+			</configuration>
+ 
+ 
+ 
 
