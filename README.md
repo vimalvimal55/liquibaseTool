@@ -7,11 +7,11 @@ use this following path http://www.mysqltutorial.org/install-mysql/
 else 
 https://www.sitepoint.com/how-to-install-mysql/ use this to install it from source. 
 
-after downloading it in a path , 
+after downloading it in a path , D:\liquibaseTool>
 
-D:\liquibaseTool>
-open command mode 
+open command line mode 
 1 . cmd from Runner 
+
 2. give following command 
 		D:\liquibaseTool>mvn -v
 		Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-05T00:30:29+05:30)
@@ -26,9 +26,12 @@ open command mode
 			set PATH=%PATH%;D:\ApacheMaven_3.6.1\bin;
 			set PATH=%PATH%;c:\programfiles\java\jdk-8\bin;
 			cmd 
-			
+
+
 3. Now you are ready to use the liquise maven tool .
+
 4. start providing command like this 
+
 5. D:\liquibaseTool>mvn clean liquibase:update -Dliquibase  -Dliquibase.url=jdbc:mysql://localhost:3306/bookdb?useSSL=false -Dliquibase.username=root -Dliquibase.password=password
 	
 		-- here the liquibase:update can be changed according to  you wish , please visit this page for further commands and features fo it. 
