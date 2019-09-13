@@ -74,5 +74,10 @@ open command line mode
 			</configuration>
  
  
- 
+
+## Running liquibse against oracle db 
+here I have seen beautiful video explaining this 
+https://blogs.oracle.com/shay/introduction-to-liquibase-and-managing-your-database-source-code
+(exactly at 6.41 to 7.21 time frame it gives idea about running commands)
+
 
